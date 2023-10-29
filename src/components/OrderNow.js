@@ -14,7 +14,8 @@ const OrderNow = ({btn_class, arrow_class}) => {
   const handleShow = () => setShow({showModal: true, showButton: true, showText: "Enter your pin code."});
 
   const handleShowButton = () => {
-    document.getElementById('pin-code').value === '208016' ? setShow({showModal: true, showButton: false, showText: "Available at this location."}) : setShow({showModal: true, showButton: true, showText: "Not available at this location."})
+    // document.getElementById('pin-code').value === '208016' ? setShow({showModal: true, showButton: false, showText: "Available at this location."}) : setShow({showModal: true, showButton: true, showText: "Not available at this location."})
+    parseInt(document.getElementById('pin-code').value) >= 110000 && parseInt(document.getElementById('pin-code').value) <= 999999 ? setShow({showModal: true, showButton: false, showText: "Available at this location."}) : setShow({showModal: true, showButton: true, showText: "Not available at this location."})
   }
 
   return (

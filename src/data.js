@@ -4,10 +4,10 @@ import { BsChatDotsFill } from 'react-icons/bs';
 
 // import images
 import AboutImg from '../src/assets/img/about.png';
-import Feature1Img from '../src/assets/img/features/feature1.png';
-import Feature2Img from '../src/assets/img/features/feature2.png';
-import Feature3Img from '../src/assets/img/features/feature3.png';
-import Feature4Img from '../src/assets/img/features/feature4.png';
+import Feature1Img from '../src/assets/img/features/page2_2.png';
+import Feature2Img from '../src/assets/img/features/page2_1.png';
+import Feature3Img from '../src/assets/img/features/5631827.png';
+import Feature4Img from '../src/assets/img/features/page2_3.png';
 // import Avatar1Img from '../src/assets/img/testimonials/avatar1.png';
 // import Avatar2Img from '../src/assets/img/testimonials/avatar2.png';
 // import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';
@@ -56,36 +56,36 @@ export const featuresData = {
     {
       image: Feature1Img,
       bgImage: Feature1BgImg,
-      title: 'Specify The Address',
+      title: 'Location',
       description:
-        'After clicking on the "Order Now" button, you are redirected to Whatsapp, where you have to specify the address where the product has to be delivered.',
+        'Share your current/ live location on whatsapp',
       linkText: 'Learn more',
       delay: '400',
     },
     {
       image: Feature2Img,
       bgImage: Feature2BgImg,
-      title: 'Type The Required Medicine',
+      title: 'Prescription',
       description:
-        'After you have specified the address, you should type the names of the medicines you want to order. Also, send the prescriptions (if required).',
+        'Take a picture of the medicine or share the prescription on whatsapp',
       linkText: 'Learn more',
       delay: '700',
     },
     {
       image: Feature3Img,
       bgImage: Feature3BgImg,
-      title: 'Confirm The Products',
+      title: 'Confirmation',
       description:
-        'After you have sent the medicines you require, we will see which medicines are available to us and of which brand. Also, if some medicines require prescriptions that you have not provided, we will sort them out with you. After that, you will get the final list of products with their prices, which you have to confirm.',
+        'Confirm the medicines available and total cost',
       linkText: 'Learn more',
       delay: '1000',
     },
     {
       image: Feature4Img,
       bgImage: Feature4BgImg,
-      title: 'Recieve The Medicines',
+      title: 'Payment on delivery',
       description:
-        'After confirming the products, your order has been confirmed and is being dispatched. Within 30 minutes of confirming the order, you will receive your products. You will have to pay now. Please treat the delivery boy with respect and dignity.',
+        'After receiving medicines pay directly via preferred method',
       linkText: 'Learn more',
       delay: '1300',
     },

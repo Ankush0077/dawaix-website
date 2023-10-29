@@ -39,7 +39,7 @@ const Features = () => {
             return (
               <div
                 key={index}
-                className='w-full max-w-[530px] h-[358px] relative flex flex-col items-center justify-center xl:flex-row xl:justify-start mx-auto mb-8'
+                className='w-full max-w-[530px] h-[150px] xl:h-[380px] relative flex flex-col items-center justify-center xl:flex-row xl:justify-start mx-auto mb-8'
                 data-aos='zoom-in'
                 data-aos-offset='100'
                 data-aos-delay={delay}
@@ -63,10 +63,10 @@ const Features = () => {
                   <p className='font-light italic mb-4'>{description}</p>
                   {/* link & arrow */}
                   <div className='flex items-center gap-x-2 group pb-2'>
-                    <a className='text-primary font-bold' href='#'>
+                    {/* <a className='text-primary font-bold' href='#'>
                       {linkText}
-                    </a>
-                    <BsArrowRight className='text-xl text-accent-primary group-hover:ml-[5px] transition-all' />
+                    </a> */}
+                    {/* <BsArrowRight className='text-xl text-accent-primary group-hover:ml-[5px] transition-all' /> */}
                   </div>
                 </div>
               </div>

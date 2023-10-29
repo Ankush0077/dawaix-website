@@ -14,6 +14,7 @@ import HowToOrder from "./pages/how_to_order/HowToOrder";
 import ReferYourFriends from "./pages/refer_your_friends/ReferYourFriends";
 import GetPhoneNumber from "./pages/get_phone_number/GetPhoneNumber";
 import OurTeam from "./pages/our_team/OurTeam"
+import HomeNew from "./pages/home/HomeNew";
 
 import "./styles.scss"
 
